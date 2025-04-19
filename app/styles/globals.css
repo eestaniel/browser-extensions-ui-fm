@@ -1,0 +1,81 @@
+:root {
+  /* Neutral Colors */
+  --neutral-900: hsl(227, 75%, 14%);
+  --neutral-800: hsl(226, 25%, 17%);
+  --neutral-700: hsl(225, 23%, 24%);
+  --neutral-600: hsl(226, 11%, 37%);
+  --neutral-300: hsl(0, 0%, 78%);
+  --neutral-200: hsl(217, 61%, 90%);
+  --neutral-100: hsl(0, 0%, 93%);
+  --neutral-0: hsl(200, 60%, 99%);
+
+  /* Red Colors */
+  --red-700: hsl(3, 77%, 44%);
+  --red-500: hsl(3, 71%, 56%);
+  --red-400: hsl(3, 86%, 64%);
+
+  /* Gradient Colors */
+  --dark-gradient: linear-gradient(180deg, #04091B 0%, #091540 100%);
+  --light-gradient: linear-gradient(180deg, #EBF2FC 0%, #EEFBF9 100%);
+
+  /* Light Color Theme */
+  /* Light - Filter Buttons */
+  --filter-button-bg-color: var(--neutral-0);
+  --filter-button-active-bg-color: var(--red-700);
+  --filter-button-border: 1px solid var(--neutral-200);
+  --filter-button-active-border-color: var(--red-700);
+  --filter-button-text-color: var(--neutral-900);
+  --filter-button-active-text-color: var(--neutral-0);
+  --filter-button-box-shadow: 0 0 0 2px var(--neutral-200), 0 0 0 4px var(--red-400);
+  --filter-button-drop-shadow: 0 1px 2px 0 #B8C4D7;
+  --filter-button-active-box-shadow: 0 0 0 2px var(--neutral-0), 0 0 0 4px var(--red-400);
+
+  /* Extension Card */
+  --extension-card-bg-color: var(--neutral-0);
+  --extension-card-border: 1px solid var(--neutral-200);
+  --extension-card-name-color: var(--neutral-900);
+  --extension-card-description-color: var(--neutral-600);
+
+  /* main container bg color */
+  --main-bg-color: linear-gradient(180deg, #EBF2FC 0%, #EEFBF9 100%);
+
+  /* Header Container */
+  --header-container-bg-color: var(--neutral-0);
+  --header-theme-container-bg-color: var(--neutral-100);
+
+  /* Extensions List */
+  --extensions-list-text-color: var(--neutral-900);
+  --extensions-list-active-text-color: var(--neutral-0);
+}
+
+[data-theme="dark"] {
+  /* Filter Buttons */
+  --filter-button-bg-color: var(--neutral-700);
+  --filter-button-active-bg-color: var(--red-400);
+  --filter-button-border: 1px solid var(--neutral-600);
+  --filter-button-active-border-color: var(--red-400);
+  --filter-button-text-color: var(--neutral-0);
+  --filter-button-active-text-color: var(--neutral-900);
+  --filter-button-box-shadow: 0 0 0 2px var(--neutral-900), 0 0 0 4px var(--red-400);
+  --filter-button-drop-shadow: none;
+  --filter-button-active-box-shadow: 0 0 0 2px var(--neutral-900), 0 0 0 4px var(--red-400);
+
+  /* Extension Card */
+  --extension-card-bg-color: var(--neutral-800);
+  --extension-card-border: 1px solid var(--neutral-600);
+  --extension-card-name-color: var(--neutral-0);
+  --extension-card-description-color: var(--neutral-300);
+
+  /* main container bg color */
+  --main-bg-color: linear-gradient(180deg, #04091B 0%, #091540 100%);
+
+  /* Header Container */
+  --header-container-bg-color: var(--neutral-800);
+  --header-theme-container-bg-color: var(--neutral-700);
+
+  /* Extensions List */
+  --extensions-list-text-color: var(--neutral-0);
+  --extensions-list-active-text-color: var(--neutral-900);
+
+}
+

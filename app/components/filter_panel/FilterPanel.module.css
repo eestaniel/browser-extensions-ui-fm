@@ -1,0 +1,41 @@
+keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Extensions List Section */
+.extensions_list_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  h1 {
+    text-align: center;
+    color: var(--extensions-list-text-color);
+    animation: fadeInSlideUp 300ms ease-out forwards;
+
+  }
+}
+
+
+.filter_buttons_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+
+}
+
+@media screen and (min-width: 736px) {
+  .extensions_list_container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+}
