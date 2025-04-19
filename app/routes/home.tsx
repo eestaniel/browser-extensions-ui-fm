@@ -31,8 +31,11 @@ export default function Home({loaderData}: Route.ComponentProps) {
       <main className={styles.main_container}>
         <div className={styles.main_content}>
           <Header />
-          <FilterPanel filters={filters} activeFilter={activeFilter} setActiveFilter={setActiveFilter}/>
-          <ExtensionGrid activeFilter={activeFilter} data={data} setData={setData}/>
+          <div className={styles.content}>
+            <FilterPanel filters={filters} activeFilter={activeFilter} setActiveFilter={setActiveFilter}/>
+            <ExtensionGrid activeFilter={activeFilter} data={data} setData={setData}/>
+          </div>
+
         </div>
 
       </main>
