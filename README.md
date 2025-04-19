@@ -1,87 +1,39 @@
-# Welcome to React Router!
+# Frontend Mentor - Browser extensions manager UI solution
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This is a solution to the [Browser extensions manager UI challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Table of contents
 
-## Features
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
 
-## Getting Started
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### Installation
+## Overview
 
-Install the dependencies:
+### The challenge
 
-```bash
-npm install
-```
+Users should be able to:
 
-### Development
+- Toggle extensions between active and inactive states
+- Filter active and inactive extensions
+- Remove extensions from the list
+- Select their color theme
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Start the development server with HMR:
 
-```bash
-npm run dev
-```
+### Links
 
-Your application will be available at `http://localhost:5173`.
+- Solution URL: [https://www.frontendmentor.io/solutions/browser-extension-ui-F4tINCuY61](https://www.frontendmentor.io/solutions/browser-extension-ui-F4tINCuY61)
+- Live Site URL: [https://browser-extensions-ui-fm.vercel.app/](https://browser-extensions-ui-fm.vercel.app/)
 
-## Building for Production
+## My process
 
-Create a production build:
+### Built with
 
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+- [React-Router](https://reactrouter.com/) - React Framework
