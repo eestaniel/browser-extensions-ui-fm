@@ -19,7 +19,6 @@
 @media screen and (min-width: 736px) {
   .main_container {
     padding: 1.5rem 2rem 4rem 2rem;
-    gap: 4rem;
   }
 
   .main_content {
@@ -30,6 +29,10 @@
 @media screen and (min-width: 1100px) {
   .main_container {
     padding: 2.5rem 2rem 4rem 2rem;
+  }
+
+  .main_content {
+    gap: 4rem;
   }
 
 }
