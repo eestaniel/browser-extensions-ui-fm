@@ -21,6 +21,7 @@
 .remove {
   padding: 0.5rem 1rem;
   box-shadow: none;
+  background-color: var(--filter-button-bg-color-remove);
 }
 
 .button:hover {

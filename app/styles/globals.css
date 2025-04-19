@@ -55,6 +55,7 @@
 [data-theme="dark"] {
   /* Filter Buttons */
   --filter-button-bg-color: var(--neutral-700);
+  --filter-button-bg-color-remove: var(--neutral-800);
   --filter-button-active-bg-color: var(--red-400);
   --filter-button-border: 1px solid var(--neutral-600);
   --filter-button-active-border-color: var(--red-400);
