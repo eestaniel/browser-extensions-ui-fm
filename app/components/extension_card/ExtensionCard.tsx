@@ -2,7 +2,7 @@ import styles from './ExtensionCard.module.css'
 import fonts from "~/styles/typography.module.css"
 import {FilterButton} from "~/components/filter_button/FilterButton";
 import {Toggle} from "~/components/toggle/Toggle";
-import type {ExtensionCardProps, ExtensionCardPropsWithHandlers} from "~/types/ExtensionCardProps";
+import type {ExtensionCardPropsWithHandlers} from "~/types/ExtensionCardProps";
 
 
 
