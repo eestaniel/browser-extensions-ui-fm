@@ -18,7 +18,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--neutral-300);
+  background-color: var(--toggle-btn-background-before);
   transition: 0.25s;
 
   /* circle toggle */
@@ -47,7 +47,7 @@
 
 /* JS-controlled checked state */
 .checked {
-  background-color: var(--red-700);
+  background-color: var(--toggle-btn-background-checked);
 
   &:hover {
     background-color: var(--red-500);

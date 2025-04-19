@@ -46,6 +46,10 @@
   /* Extensions List */
   --extensions-list-text-color: var(--neutral-900);
   --extensions-list-active-text-color: var(--neutral-0);
+
+  /* Toggle Button */
+  --toggle-btn-background-before: var(--neutral-300);
+  --toggle-btn-background-checked: var(--red-700);
 }
 
 [data-theme="dark"] {
@@ -76,6 +80,10 @@
   /* Extensions List */
   --extensions-list-text-color: var(--neutral-0);
   --extensions-list-active-text-color: var(--neutral-900);
+
+  /* Toggle Button */
+  --toggle-btn-background-before: var(--neutral-600);
+  --toggle-btn-background-checked: var(--red-400);
 
 }
 
